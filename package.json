@@ -1,12 +1,27 @@
 {
   "name": "phishing-api",
   "version": "1.0.0",
-  "description": "",
+  "description": "Wrapper for the Exerra phishing API",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "engines": {
+    "node": ">=14"
   },
-  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Exerra/phishing-api.git"
+  },
+  "keywords": [
+    "Exerra",
+    "Phishing",
+    "API"
+  ],
   "author": "Exerra <exerra@exerra.xyz>",
-  "license": "MIT"
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "node-fetch": "^3.2.0"
+  },
+  "bugs": {
+    "url": "https://github.com/Exerra/phishing-api/issues"
+  }
 }
