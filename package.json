@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Wrapper for the Exerra phishing API",
   "main": "index.js",
+  "homepage": "https://docs.exerra.xyz/docs/phishing-api/intro",
   "engines": {
     "node": ">=14"
   },
