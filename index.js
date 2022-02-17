@@ -2,12 +2,12 @@
     Created by Exerra on 11/02/2022
 */
 
-import fetch from "node-fetch";
+const fetch = require("node-fetch");
 
 let apiuri = "https://api.exerra.xyz"
 let phishingDomains = []
 
-export class PhishingAPI {
+class PhishingAPI {
 	/**
 	 *
 	 * @description Checks API status
@@ -44,3 +44,5 @@ export class PhishingAPI {
 		}
 	}
 }
+
+module.exports = PhishingAPI

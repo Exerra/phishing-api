@@ -1,6 +1,6 @@
 {
   "name": "phishing-api",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "description": "Wrapper for the Exerra phishing API",
   "main": "index.js",
   "homepage": "https://docs.exerra.xyz/docs/phishing-api/intro",
@@ -18,7 +18,6 @@
   ],
   "author": "Exerra <exerra@exerra.xyz>",
   "license": "MIT",
-  "type": "module",
   "dependencies": {
     "node-fetch": "^3.2.0"
   },
