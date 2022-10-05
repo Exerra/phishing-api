@@ -1,15 +1,21 @@
 {
   "name": "phishing-api",
-  "version": "2.0.1",
+  "version": "3.0.0",
   "description": "Wrapper for the Exerra phishing API",
-  "main": "index.js",
-  "homepage": "https://docs.exerra.xyz/docs/phishing-api/intro",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "homepage": "https://rapidapi.com/Exerra/api/exerra-phishing-check",
   "engines": {
     "node": ">=14"
   },
+  "type": "module",
   "repository": {
     "type": "git",
     "url": "https://github.com/Exerra/phishing-api.git"
+  },
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
   },
   "keywords": [
     "Exerra",
@@ -22,6 +28,10 @@
     "url": "https://github.com/Exerra/phishing-api/issues"
   },
   "dependencies": {
-    "node-fetch": "^2.6.7"
+    "node-fetch": "^3.2.10"
+  },
+  "devDependencies": {
+    "@types/node": "^18.8.2",
+    "typescript": "^4.8.4"
   }
 }

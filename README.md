@@ -1,5 +1,5 @@
 # phishing-api
-Wrapper for the [Exerra phishing API](https://docs.exerra.xyz/api/check-a-link)
+Wrapper for the [Exerra phishing API](https://rapidapi.com/Exerra/api/exerra-phishing-check)
 ![Code image](https://cdn.exerra.xyz/png/phishing-api/carbon-2.png)
 
 ## What is this API?
